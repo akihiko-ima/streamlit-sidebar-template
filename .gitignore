@@ -1,0 +1,11 @@
+# env file
+.env
+
+# for python
+__pycache__
+__pycache__/
+*.py[cod]
+
+# misc
+memo.txt
+env_st_template
