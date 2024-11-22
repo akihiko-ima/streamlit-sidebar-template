@@ -15,7 +15,7 @@
 1. Clone the repository
 
    ```bash
-   git clone https://github.com/
+   git clone https://github.com/akihiko-ima/streamlit-sidebar-template
    ```
 
 2. Install dependencies
