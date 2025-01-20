@@ -31,8 +31,8 @@ def sidebar_component() -> str:
                 "tabStyle": {":hover :hover": {"color": "red", "cursor": "pointer"}},
                 "tabStyle": {
                     "list-style-type": "none",
-                    "margin-bottom": "30px",
-                    "padding-left": "30px",
+                    "margin-bottom": "20px",
+                    "padding-left": "20px",
                 },
                 "iconStyle": {
                     "position": "fixed",

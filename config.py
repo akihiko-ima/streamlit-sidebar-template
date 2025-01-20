@@ -19,7 +19,13 @@ class RouterMapping:
  [https://fonts.google.com/icons](https://fonts.google.com/icons)
 """
 routers: Dict[str, RouterMapping] = {
-    "router_1": RouterMapping(routing_name="first", icon="home", streamlit_page=first_page),
-    "router_2": RouterMapping(routing_name="second", icon="rocket_launch", streamlit_page=second_page),
-    "router_3": RouterMapping(routing_name="third", icon="login", streamlit_page=third_page),
+    "router_1": RouterMapping(
+        routing_name="first", icon="home", streamlit_page=first_page
+    ),
+    "router_2": RouterMapping(
+        routing_name="second", icon="rocket_launch", streamlit_page=second_page
+    ),
+    "router_3": RouterMapping(
+        routing_name="third", icon="login", streamlit_page=third_page
+    ),
 }

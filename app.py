@@ -12,8 +12,7 @@ st.set_page_config(
 
 # setting for global.css
 style_path = os.path.join(os.path.dirname(__file__), "global.css")
-st.markdown("<style>" + open(style_path).read() +
-            "</style>", unsafe_allow_html=True)
+st.markdown("<style>" + open(style_path).read() + "</style>", unsafe_allow_html=True)
 
 # SiderBar
 router = sidebar_component()
